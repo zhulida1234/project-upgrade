@@ -31,4 +31,8 @@ contract CrowdfundingPlatformV2 is Initializable, UUPSUpgradeable, OwnableUpgrad
         return projects;
     }
 
+    function foo() public pure returns (string memory) {
+        return "foo";
+    }
+
 }
